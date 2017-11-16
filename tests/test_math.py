@@ -5,5 +5,3 @@ def test_square():
 
     assert 9==square(3)
     assert 0==square(0)
-
-    
