@@ -17,7 +17,7 @@ except ImportError:
     read_md = lambda f: open(f, 'r').read()
 
 from os import path
-setup(name='Demo',
+setup(name='demo',
       version='0.0.1',
       description='Continuous integration testing',
       long_description= "" if not path.isfile("README.md") else read_md('README.md'),
